@@ -1,31 +1,60 @@
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 20px 0;
-  font-size: 1.2em;
-  font-family: sans-serif;
-  text-align: left;
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial Arial, Helvetica, sans-serif;
 }
 
-th, td {
-  padding: 12px 15px;
-  border: 1px solid #dddddd;
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none ;
+    padding: 16px;
 }
 
-thead {
-  background-color: #009879;
-  color: #ffffff;
+a{
+    color: white;
+    text-decoration: none;
 }
 
-tbody tr:nth-child(even) {
-  background-color: #f3f3f3;
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #5BBE42
 }
 
-tbody tr:nth-child(odd) {
-  background-color: #e9f5f5;
+.center{
+    text-align: center
+
 }
 
-/* Adicionar efeito hover nas linhas */
-tbody tr:hover {
-  background-color: #d1e7e7;
+h1{
+    color: #5BBE42
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 2px;
+}
+
+.Conteiner{
+    padding: 0px 60px; 
+}
+
+nav a:hover{
+    color: #5BBE42
 }

@@ -1,0 +1,31 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #dddddd;
+}
+
+thead {
+  background-color: #009879;
+  color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #e9f5f5;
+}
+
+/* Adicionar efeito hover nas linhas */
+tbody tr:hover {
+  background-color: #d1e7e7;
+}
